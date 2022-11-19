@@ -1,0 +1,289 @@
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    background-image: url(https://vistapointe.net/images/reflection-1.jpg);
+   }
+  
+  h1:hover {
+    transform: scale(1.2);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #202020;
+    top: 0;
+    width: 100%;
+    position:;
+    
+  }
+  .navlist {
+    position:;
+    top: 0;
+    right: ;
+    margin: 0;
+    padding: 0;
+     
+  }
+  li {
+    display: inline;
+    float: right;
+    
+    
+    
+    
+  }
+  li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+     
+  }
+  li a:hover:not(.active) {
+    background-color: #202020;
+    color: #e04465;
+  }
+  li:hover {
+    transform: scale(1.2);
+  }
+  .active {
+    background-color: #FFDF6C;
+  }
+  .projects {
+    background: ;
+    width: 100%;
+    height: 100vh;
+    
+    
+  }
+  .projects-section {
+    text-align: center;
+    padding: 0rem 2rem;
+    font-size: 50px;
+    
+  }
+  .projects-grid {
+    width: 100%;
+    font-size: 55px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 20px 20px;
+    justify-content: space-evenly;
+    
+    }
+  .project-tile {
+    background: lightsalmon;
+    height: 6em;
+    background-image: url(https://codepen.io/chrisjorgy/pen/poPKyXa/image/large.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: background-image 0.5s;
+    }
+  
+  .d2 {
+    background: lightblue;
+    background-image: url(https://codepen.io/chrisjorgy/pen/GRmGddX/image/large.png);
+    background-size: cover;
+    background-position: center;
+    height: 6em;
+    cursor: pointer;
+  }
+  .d3 {
+    background: lightgreen;
+    background-image: url(https://codepen.io/chrisjorgy/pen/YzVjmYQ/image/large.png);
+    background-size: cover;
+    background-position: center;
+    height: 6em;
+    cursor: pointer;
+  }
+  .d4 {
+    background: yellow;
+    background-image: url(https://codepen.io/chrisjorgy/pen/JjNeNGX/image/large.png);
+    background-size: cover;
+    background-position: center;
+    height: 6em;
+    cursor: pointer;
+  }
+  .d5 {
+    background: lightpink;
+    height: 6em;
+    background-image: url(https://codepen.io/chrisjorgy/pen/oNWKeoY/image/large.png);
+    background-size:cover;
+    background-position: center;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .d6 {
+    background: teal;
+    heaight:6em;
+    /*background-image: url(https://codepen.io/chrisjorgy/pen/BaRgapR/image/large.png);*/ 
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    opacity: 0.2;
+  }
+  .d7 {
+    background: red;
+    height: 6em;
+    text-align: center;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .d8 {
+    background: purple;
+    text-align: center;
+    height: 6em;
+    opacity: 0.2;
+    cursor: pointer;
+  }
+  .project-tile:hover {
+    transform: scale(1.1);
+  }
+  .d2:hover {
+    transform: scale(1.1);
+  }
+  .d3:hover {
+    transform: scale(1.1);
+  }
+  .d4:hover {
+    transform: scale(1.1);
+    
+  }
+  .d5:hover {
+    transform: scale(1.1);
+  }
+  .d6:hover {
+    transform: scale(1.1);
+  }
+  .d7:hover {
+    transform: scale(1.1);
+  }
+  .d8:hover {
+    transform: scale(1.1);
+  }
+  
+  p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    font-weight:;
+    
+  
+  }
+  a {
+  font-size: 50px;  
+  font-family: 'Rajdhani', sans-serif;
+  color: #e04465;
+  }
+  h1 {
+  font-size: 50px;  
+  font-family: 'Rajdhani', sans-serif;
+  color: #e04465;
+  }
+  .sub-text {
+    color: #e04465;
+    padding-bottom: 550px;
+    font-weight: ;
+    
+  }
+  .contact-section {
+    background-color: #202020; 
+    height: 25vh;
+     top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .contact-section-hearder {
+    
+  }
+  span {
+    font-family: 'Rajdhani', sans-serif;
+    color: #e04465;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .contact-me {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    color: #e04465;
+    font-size: 50px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    
+    }
+  .social-contact {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  footer {
+    background-color: #202020;
+    color: #e04465;
+    text-align: center;
+    height: 3vh;
+    width: 100%;
+  }
+  h2:hover {
+    transform: scale(1.2);
+  }
+  
+  @media screen and (max-width: 600px) {
+     ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+   
+   @media only screen and (min-width: 768px) {
+      /* tablets and desktop */
+  }
+  
+  @media only screen and (max-width: 767px) {
+      /* phones */
+  }
+  
+  @media only screen and (max-width: 767px) and (orientation: portrait) {
+      /* portrait phones */
+  }
+  
+  
